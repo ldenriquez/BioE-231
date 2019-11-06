@@ -1,0 +1,7 @@
+##seq_name	method	feature	start	end	evalue	strand	frame	attribute
+NODE_22_length_103366_cov_10.083467	rna_hmm3	rRNA	35531	37075	0	+	NA	16S_rRNA
+NODE_17_length_154232_cov_9.587340	rna_hmm3	rRNA	124542	126086	0	+	NA	16S_rRNA
+NODE_8_length_259210_cov_9.408938	rna_hmm3	rRNA	63713	65257	0	-	NA	16S_rRNA
+NODE_5_length_298800_cov_8.930188	rna_hmm3	rRNA	13929	15473	0	+	NA	16S_rRNA
+NODE_3_length_378948_cov_10.013238	rna_hmm3	rRNA	348500	350044	0	+	NA	16S_rRNA
+NODE_1_length_687571_cov_8.345136	rna_hmm3	rRNA	46286	47830	0	+	NA	16S_rRNA

@@ -16,7 +16,7 @@
 # scoringmatrix: `BLOSUM62`<br>
 # inputfasta: `example.fa`<br>
 
-# In[7]:
+# In[ ]:
 
 
 # %load Todo_nw_aligner.py
@@ -225,10 +225,10 @@ class NWAligner:
             #   seq_y to a gap.
             
             #align seq_y to a gap
-            if move == -1:
+            if move == 1:
                 align_x.append("-")
                 align_y.append(seq_y[y-1])
-                x -= 1
+                y -= 1
                 
             #align seq_x to seq_y   
             elif move == 0:
@@ -241,7 +241,7 @@ class NWAligner:
             else:
                 align_x.append(seq_x[x-1])
                 align_y.append("-")
-                y-= 1
+                x-= 1
                 
         # flip the alignments, as they're reversed
         return ("".join(align_x[::-1]), "".join(align_y[::-1]))
@@ -276,7 +276,7 @@ if __name__ == '__main__':
     print('>seq1\n%s\n>seq2\n%s' % (result[0], result[1]))
 
 
-# In[8]:
+# In[13]:
 
 
 get_ipython().system('ipython nbconvert --to=python Lab_10_final.ipynb')

@@ -1,0 +1,42 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /usr/local/CRISPRCasFinder/CasFinder-2.0.2/CASprofiles-2.0.2/Cmr3_0_IIIB.hmm
+# target sequence database:        /store/webapp/ccpp/637108671004790426/query_2_12_2019_6_5_7/prodigal_NODE_5_length_279212_cov_300_782979/NODE_5_length_279212_cov_300_782979.faa
+# output directed to file:         query_2_12_2019_6_5_7/casfinder_NODE_5_length_279212_cov_300_782979/hmmer_results/Cmr3_0_IIIB.search_hmm.out
+# sequence reporting threshold:    E-value <= 1
+# number of worker threads:        0
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       TIGR01888  [M=346]
+Accession:   TIGR01888
+Description: cas_cmr3: CRISPR type III-B/RAMP module-associated protein Cmr3
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (346 nodes)
+Target sequences:                          257  (80942 residues searched)
+Passed MSV filter:                         6  (0.0233463); expected 5.1 (0.02)
+Passed bias filter:                        6  (0.0233463); expected 5.1 (0.02)
+Passed Vit filter:                         1  (0.00389105); expected 0.3 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                257  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+[ok]

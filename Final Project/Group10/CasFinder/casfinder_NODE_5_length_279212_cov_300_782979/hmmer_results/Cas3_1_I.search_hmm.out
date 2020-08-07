@@ -1,0 +1,61 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /usr/local/CRISPRCasFinder/CasFinder-2.0.2/CASprofiles-2.0.2/Cas3_1_I.hmm
+# target sequence database:        /store/webapp/ccpp/637108671004790426/query_2_12_2019_6_5_7/prodigal_NODE_5_length_279212_cov_300_782979/NODE_5_length_279212_cov_300_782979.faa
+# output directed to file:         query_2_12_2019_6_5_7/casfinder_NODE_5_length_279212_cov_300_782979/hmmer_results/Cas3_1_I.search_hmm.out
+# sequence reporting threshold:    E-value <= 1
+# number of worker threads:        0
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       TIGR01596  [M=178]
+Accession:   TIGR01596
+Description: cas3_HD: CRISPR-associated endonuclease Cas3-HD
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                -----------
+    2.2e-28   93.4   0.9    3.7e-28   92.7   0.9    1.4  1  NODE_5_length_279212_cov_300_782979_170  # 168936 # 171599 # -1 # ID=1_17
+
+
+Domain annotation for each sequence (and alignments):
+>> NODE_5_length_279212_cov_300_782979_170  # 168936 # 171599 # -1 # ID=1_170;partial=00;start_type=GTG;rbs_motif=GGAG/G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.7   0.9   1.5e-30   3.7e-28       1     178 []      24     219 ..      24     219 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 92.7 bits;  conditional E-value: 1.5e-30
+                                TIGR01596   1 LkeHlldvaavae....llknlreklaekig.....elrellklaallHDlGKatpaFQkkl.....elk 56 
+                                              L +H+ldvaav+     ++  + +++++k+g     ++ ++++++ ++HD+GK+++ FQ+       +  
+  NODE_5_length_279212_cov_300_782979_170  24 LCWHSLDVAAVGYwmviNNIYFIDHYLKKLGiqdkeQAAQFFAWILCWHDIGKFAHSFQQLYrhealNIF 93 
+                                              789**************99999************************************************ PP
+
+                                TIGR01596  57 eeeegkkkevrHsllSalllydll...........eekeleeelalllalaiagHHgrllddddleelle 115
+                                              +e+  +++++ H +l+ +l++ +l            + +++++++ l++ +  gHHg   +++++ ++l+
+  NODE_5_length_279212_cov_300_782979_170  94 NEPTRHYEKIAHTTLGYMLWNSWLsecpelfppssLSVRKSKRVMALWMPVTTGHHG---RPPEAIQELD 160
+                                              *********************************************************...6666666778 PP
+
+                                TIGR01596 116 leereleealkelreeleelleeeakllellekllekeepi.elyllarllagllilaDwlasa 178
+                                              + ++++++a+ +++  +++l++     l  l++ +++ e i ++++l++++ ++++laDw++sa
+  NODE_5_length_279212_cov_300_782979_170 161 HFRQQDKDAARDFLLRIKALFP-----LITLPEAWDEDEGIdQFQQLSWFISAAVVLADWTGSA 219
+                                              8999999999999*******99.....566666666666666********************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (178 nodes)
+Target sequences:                          257  (80942 residues searched)
+Passed MSV filter:                         9  (0.0350195); expected 5.1 (0.02)
+Passed bias filter:                        8  (0.0311284); expected 5.1 (0.02)
+Passed Vit filter:                         3  (0.0116732); expected 0.3 (0.001)
+Passed Fwd filter:                         1  (0.00389105); expected 0.0 (1e-05)
+Initial search space (Z):                257  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.01
+# Mc/sec: 1440.77
+//
+[ok]

@@ -1,0 +1,5 @@
+# gene: Cas3_0_IU extract from query_2_12_2019_6_5_7/casfinder_NODE_25_length_56700_cov_393_862494/hmmer_results/Cas3_0_IU.search_hmm.out hmm output
+# profile length= 864
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id replicon_name position_hit hit_sequence_length gene_name gene_system i_eval score profile_coverage sequence_coverage begin end

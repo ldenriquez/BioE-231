@@ -1,0 +1,6 @@
+# gene: Cas3_0_I extract from query_2_12_2019_6_5_7/casfinder_NODE_12_length_164384_cov_302_877824/hmmer_results/Cas3_0_I.search_hmm.out hmm output
+# profile length= 358
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id replicon_name position_hit hit_sequence_length gene_name gene_system i_eval score profile_coverage sequence_coverage begin end
+NODE_12_length_164384_cov_302_877824_70	UserReplicon	70	630	Cas3_0_I	CAS	3.500e-05	16.400	0.559	0.310	150	344

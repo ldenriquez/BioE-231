@@ -1,0 +1,66 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /usr/local/CRISPRCasFinder/CasFinder-2.0.2/CASprofiles-2.0.2/Cas1_0_I-II-III-V.hmm
+# target sequence database:        /store/webapp/ccpp/637108671004790426/query_2_12_2019_6_5_7/prodigal_NODE_5_length_279212_cov_300_782979/NODE_5_length_279212_cov_300_782979.faa
+# output directed to file:         query_2_12_2019_6_5_7/casfinder_NODE_5_length_279212_cov_300_782979/hmmer_results/Cas1_0_I-II-III-V.search_hmm.out
+# sequence reporting threshold:    E-value <= 1
+# number of worker threads:        0
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cas1_I_II_III_V_maka  [M=315]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                -----------
+    2.4e-12   40.3   0.0    1.5e-08   27.8   0.0    2.1  2  NODE_5_length_279212_cov_300_782979_164  # 163433 # 164353 # -1 # ID=1_16
+
+
+Domain annotation for each sequence (and alignments):
+>> NODE_5_length_279212_cov_300_782979_164  # 163433 # 164353 # -1 # ID=1_164;partial=00;start_type=GTG;rbs_motif=GGAG/G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.6   0.0   9.9e-06    0.0026      15     106 ..      30     120 ..      17     126 .. 0.85
+   2 !   27.8   0.0   5.8e-11   1.5e-08     144     234 ..     131     221 ..     122     234 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 9.9e-06
+                     cas1_I_II_III_V_maka  15 gellvveekgekvneipledisivvifgevtistallnllaergivvfffssggylggllpppelksnvl 84 
+                                              g ++ + + g +++ ip+ ++  +++  ++ +s a+++l++  g  +++ +++g    +  +p++ +  +
+  NODE_5_length_279212_cov_300_782979_164  30 GAFVLIDKTG-IRTHIPVGSVACIMLEPGTRVSHAAVRLASTVGTLLVWVGEAGVRVYSSGQPGGARADK 98 
+                                              5556666665.99******************************************999999999998888 PP
+
+                     cas1_I_II_III_V_maka  85 lrrqqyaaaddekrlliarliv 106
+                                              l  q + a dd+ rl++ r++ 
+  NODE_5_length_279212_cov_300_782979_164  99 LLYQAKLALDDDLRLKVVRKMY 120
+                                              8888888888888888877765 PP
+
+  == domain 2  score: 27.8 bits;  conditional E-value: 5.8e-11
+                     cas1_I_II_III_V_maka 144 aesieelggeEgaa.akyYfqlfslllkksffftrrrrrppd....dpnnaLlsfgysllysdvtsaiva 208
+                                                s e+l+g+Eg+  +++Y  l ++    + ++ +r++ p+d    d++n  +s+++s ly + ++ai a
+  NODE_5_length_279212_cov_300_782979_164 131 RRSVEQLRGIEGSRvRATYALLAKQY---GVKWHGRNYDPKDwekgDVVNRCISAATSCLYGISEAAILA 197
+                                              56788888888875166666666665...679********988888************************ PP
+
+                     cas1_I_II_III_V_maka 209 ggldpyggflhqprpgrpllalDleE 234
+                                              +g  p++gf h  ++++ + ++D++ 
+  NODE_5_length_279212_cov_300_782979_164 198 AGYAPAIGFIH--SGKPLSFVYDIAD 221
+                                              ***********..4666667777765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (315 nodes)
+Target sequences:                          257  (80942 residues searched)
+Passed MSV filter:                        13  (0.0505837); expected 5.1 (0.02)
+Passed bias filter:                        8  (0.0311284); expected 5.1 (0.02)
+Passed Vit filter:                         1  (0.00389105); expected 0.3 (0.001)
+Passed Fwd filter:                         1  (0.00389105); expected 0.0 (1e-05)
+Initial search space (Z):                257  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 2549.67
+//
+[ok]

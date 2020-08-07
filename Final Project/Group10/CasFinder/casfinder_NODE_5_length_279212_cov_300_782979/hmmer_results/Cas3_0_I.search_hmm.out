@@ -1,0 +1,81 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /usr/local/CRISPRCasFinder/CasFinder-2.0.2/CASprofiles-2.0.2/Cas3_0_I.hmm
+# target sequence database:        /store/webapp/ccpp/637108671004790426/query_2_12_2019_6_5_7/prodigal_NODE_5_length_279212_cov_300_782979/NODE_5_length_279212_cov_300_782979.faa
+# output directed to file:         query_2_12_2019_6_5_7/casfinder_NODE_5_length_279212_cov_300_782979/hmmer_results/Cas3_0_I.search_hmm.out
+# sequence reporting threshold:    E-value <= 1
+# number of worker threads:        0
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       TIGR01587  [M=358]
+Accession:   TIGR01587
+Description: cas3_core: CRISPR-associated helicase Cas3
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                -----------
+    4.6e-64  210.7   0.0    7.2e-64  210.0   0.0    1.3  1  NODE_5_length_279212_cov_300_782979_170  # 168936 # 171599 # -1 # ID=1_17
+
+
+Domain annotation for each sequence (and alignments):
+>> NODE_5_length_279212_cov_300_782979_170  # 168936 # 171599 # -1 # ID=1_170;partial=00;start_type=GTG;rbs_motif=GGAG/G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  210.0   0.0   2.8e-66   7.2e-64       2     357 ..     292     721 ..     291     722 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 210.0 bits;  conditional E-value: 2.8e-66
+                                TIGR01587   2 lvieAPtGyGKteaallwalklikkqkadkvifalPtratanamyerlke.........lfgs.elvlll 61 
+                                              +++e  tG+GKteaal++a  l+   ka+ + f lPt atanam er+ +               l+l++
+  NODE_5_length_279212_cov_300_782979_170 292 FILEDVTGAGKTEAALILAHRLMAAGKAQGLYFGLPTMATANAMFERMANtwlalyqpdS--RpSLILAH 359
+                                              677778*******************************************97777443330..23455555 PP
+
+                                TIGR01587  62 ks..........ass....rkikekgdseeleklvklysksnkkvflkpitvctidqvlksvlkevgeae 117
+                                              +            +s      ++  + +++ + + ++   snkk +l  ++v t+dq++++v++ +++++
+  NODE_5_length_279212_cov_300_782979_170 360 SArrlmdrfnqsIWSvtlsGTEEPDEAQPYSQGCAAWFADSNKKALLAEVGVGTLDQAMMAVMP-FKHNN 428
+                                              557777777655222664233333444566788999****************************.***** PP
+
+                                TIGR01587 118 itlasianSvliiDEvhayeeytkalllallevlkdvdvkillmsAtlp.....kllkeylekielveen 182
+                                              ++l++++n +l  DE+ha +  +  +l+ l+e+++ ++   +l+sAtl+     kl+  + + +   ++ 
+  NODE_5_length_279212_cov_300_782979_170 429 LRLLGLSNKILLADEIHACDAWMSRILEGLIERQASNGNATILLSATLSqqqrdKLVAAFSRGVRRSVQA 498
+                                              *****************************************************999999*******9999 PP
+
+                                TIGR01587 183 ealdlke.................ekrfenqrisliekdkleeisslerllealkkekkvliivNtVdrA 235
+                                               +l  ++                   r+e +r  +      +e+  ler+ ea++k++ ++ i N+Vd+A
+  NODE_5_length_279212_cov_300_782979_170 499 PLLGHDDypwltqvtqtelisqrvDTRKEVERC-VDIGWLHSEEACLERIGEAVEKGNCIAWIRNSVDDA 567
+                                              99999999***********97554444444443.333345788999************************ PP
+
+                                TIGR01587 236 qelyqklkekapee.e.iiLlHsrftekdrekkEaellkelkk.....nekfvivaTQviEvslDisvdv 298
+                                              + +y +l+ +     e  +L+Hsrf+  dr++ E ++l+ ++k     +++ vi+aTQviE+slDi+ d 
+  NODE_5_length_279212_cov_300_782979_170 568 IRIYRQLQLSKVVVtEnLLLFHSRFAFYDRQRIESQTLNLFGKqsgaqRAGKVIIATQVIEQSLDIDCDE 637
+                                              *****998443322235*****************************99999******************* PP
+
+                                TIGR01587 299 litelapidsLiQRlGRlaRygrkir........enrevyvltelledk.................hlvy 343
+                                              +i++lap+d+LiQR+GRl+R+ r+ +        ++re +vl++l ++                  +++ 
+  NODE_5_length_279212_cov_300_782979_170 638 MISDLAPVDLLIQRAGRLQRHIRDRNglvkksgqDERETPVLRILAPEWddaprenwlssamrnsaYVYP 707
+                                              ********************97754322222224566777777776665677788888888888777777 PP
+
+                                TIGR01587 344 dkelvertikklee 357
+                                              d   +++t+++l+e
+  NODE_5_length_279212_cov_300_782979_170 708 DHGRMWLTQRILRE 721
+                                              77788888877776 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (358 nodes)
+Target sequences:                          257  (80942 residues searched)
+Passed MSV filter:                         6  (0.0233463); expected 5.1 (0.02)
+Passed bias filter:                        5  (0.0194553); expected 5.1 (0.02)
+Passed Vit filter:                         1  (0.00389105); expected 0.3 (0.001)
+Passed Fwd filter:                         1  (0.00389105); expected 0.0 (1e-05)
+Initial search space (Z):                257  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 2897.72
+//
+[ok]

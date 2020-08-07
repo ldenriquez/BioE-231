@@ -1,0 +1,5 @@
+# gene: Cas13b_1_VIB2 extract from query_2_12_2019_6_5_7/casfinder_NODE_24_length_59488_cov_317_432723/hmmer_results/Cas13b_1_VIB2.search_hmm.out hmm output
+# profile length= 1142
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id replicon_name position_hit hit_sequence_length gene_name gene_system i_eval score profile_coverage sequence_coverage begin end

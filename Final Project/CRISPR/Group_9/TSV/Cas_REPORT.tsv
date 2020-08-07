@@ -1,0 +1,19 @@
+############################################
+NODE_1_length_606135_cov_267_070679 ( Unknown ) 
+--------------------------------------------
+### System: CAS-TypeIE (UserReplicon_CAS-TypeIE_1)
+#SequenceID	Cas-type/subtype	Gene status	System	Type	Begin	End	Strand	Other_information
+NODE_1_length_606135_cov_267_070679_165	Cas2_0_IE	mandatory	CAS-TypeIE	CDS	166446	166739	-	ID=1_165;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.497;conf=99.06;score=20.25;cscore=15.46;sscore=4.79;rscore=-4.96;uscore=-1.66;tscore=3.51;
+NODE_1_length_606135_cov_267_070679_166	Cas1_0_IE	mandatory	CAS-TypeIE	CDS	166739	167659	-	ID=1_166;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.558;conf=100.00;score=90.84;cscore=83.82;sscore=7.02;rscore=11.10;uscore=0.67;tscore=-6.05;
+NODE_1_length_606135_cov_267_070679_167	Cas6_0_IE	mandatory	CAS-TypeIE	CDS	167656	168306	-	ID=1_167;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.568;conf=100.00;score=71.84;cscore=67.17;sscore=4.67;rscore=15.34;uscore=-4.62;tscore=-6.05;
+NODE_1_length_606135_cov_267_070679_168	Cas5_0_IE	mandatory	CAS-TypeIE	CDS	168288	169034	-	ID=1_168;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.580;conf=100.00;score=76.16;cscore=69.19;sscore=6.97;rscore=2.24;uscore=0.05;tscore=3.51;
+NODE_1_length_606135_cov_267_070679_169	Cas7_0_IE	mandatory	CAS-TypeIE	CDS	169045	170103	-	ID=1_169;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.526;conf=100.00;score=147.36;cscore=138.70;sscore=8.66;rscore=2.24;uscore=1.78;tscore=3.51;
+NODE_1_length_606135_cov_267_070679_170	Cse2_0_IE	mandatory	CAS-TypeIE	CDS	170117	170677	-	ID=1_170;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.485;conf=100.00;score=53.19;cscore=33.01;sscore=20.19;rscore=14.28;uscore=1.10;tscore=3.51;
+NODE_1_length_606135_cov_267_070679_171	Cse1_0_IE	mandatory	CAS-TypeIE	CDS	170674	172230	-	ID=1_171;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.544;conf=100.00;score=170.60;cscore=171.49;sscore=-0.89;rscore=-6.38;uscore=0.83;tscore=3.51;
+NODE_1_length_606135_cov_267_070679_172	Cas3_0_I	accessory	CAS	CDS	172242	174905	-	ID=1_172;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.503;conf=99.99;score=254.27;cscore=247.51;sscore=6.76;rscore=11.10;uscore=2.36;tscore=-6.05;
+####Summary system CAS-TypeIE:begin=166446;end=174905:{sequenceID=NODE_1_length_606135_cov_267_070679} : [Cas2_0_IE (166446,166739,-); Cas1_0_IE (166739,167659,-); Cas6_0_IE (167656,168306,-); Cas5_0_IE (168288,169034,-); Cas7_0_IE (169045,170103,-); Cse2_0_IE (170117,170677,-); Cse1_0_IE (170674,172230,-); Cas3_0_I (172242,174905,-)]
+
+
+############################################
+NODE_23_length_75745_cov_270_535672 ( Unknown ) 
+--------------------------------------------

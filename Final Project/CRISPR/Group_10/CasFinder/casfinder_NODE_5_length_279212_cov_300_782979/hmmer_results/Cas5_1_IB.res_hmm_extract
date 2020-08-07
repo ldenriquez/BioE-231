@@ -1,0 +1,6 @@
+# gene: Cas5_1_IB extract from query_2_12_2019_6_5_7/casfinder_NODE_5_length_279212_cov_300_782979/hmmer_results/Cas5_1_IB.search_hmm.out hmm output
+# profile length= 241
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id replicon_name position_hit hit_sequence_length gene_name gene_system i_eval score profile_coverage sequence_coverage begin end
+NODE_5_length_279212_cov_300_782979_166	UserReplicon	166	225	Cas5_1_IB	CAS-TypeIB	1.900e-05	18.400	0.577	0.667	5	154

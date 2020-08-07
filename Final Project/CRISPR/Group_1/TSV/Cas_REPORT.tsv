@@ -1,0 +1,19 @@
+############################################
+NODE_7_length_282381_cov_276_200892 ( Unknown ) 
+--------------------------------------------
+### System: CAS-TypeIE (UserReplicon_CAS-TypeIE_1)
+#SequenceID	Cas-type/subtype	Gene status	System	Type	Begin	End	Strand	Other_information
+NODE_7_length_282381_cov_276_200892_88	Cas3_0_I	accessory	CAS	CDS	107702	110365	+	ID=1_88;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.503;conf=99.99;score=275.85;cscore=267.37;sscore=8.48;rscore=11.33;uscore=2.35;tscore=-5.19;
+NODE_7_length_282381_cov_276_200892_89	Cse1_0_IE	mandatory	CAS-TypeIE	CDS	110377	111933	+	ID=1_89;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.544;conf=99.99;score=179.48;cscore=179.05;sscore=0.43;rscore=-5.38;uscore=1.16;tscore=3.50;
+NODE_7_length_282381_cov_276_200892_90	Cse2_0_IE	mandatory	CAS-TypeIE	CDS	111930	112490	+	ID=1_90;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.483;conf=100.00;score=57.79;cscore=37.28;sscore=20.51;rscore=14.74;uscore=0.97;tscore=3.50;
+NODE_7_length_282381_cov_276_200892_91	Cas7_0_IE	mandatory	CAS-TypeIE	CDS	112504	113562	+	ID=1_91;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.528;conf=100.00;score=143.51;cscore=136.22;sscore=7.29;rscore=1.39;uscore=1.27;tscore=3.50;
+NODE_7_length_282381_cov_276_200892_92	Cas5_0_IE	mandatory	CAS-TypeIE	CDS	113573	114319	+	ID=1_92;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.580;conf=100.00;score=72.03;cscore=67.07;sscore=4.96;rscore=1.39;uscore=-1.10;tscore=3.50;
+NODE_7_length_282381_cov_276_200892_93	Cas6_0_IE	mandatory	CAS-TypeIE	CDS	114301	114951	+	ID=1_93;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.571;conf=100.00;score=68.96;cscore=63.93;sscore=5.02;rscore=16.07;uscore=-5.86;tscore=-5.19;
+NODE_7_length_282381_cov_276_200892_94	Cas1_0_IE	mandatory	CAS-TypeIE	CDS	114948	115868	+	ID=1_94;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.557;conf=100.00;score=96.92;cscore=89.29;sscore=7.63;rscore=11.33;uscore=0.21;tscore=-5.19;
+NODE_7_length_282381_cov_276_200892_95	Cas2_0_IE	mandatory	CAS-TypeIE	CDS	115868	116161	+	ID=1_95;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.493;conf=99.68;score=25.01;cscore=20.23;sscore=4.79;rscore=-8.65;uscore=-1.82;tscore=3.50;
+####Summary system CAS-TypeIE:begin=107702;end=116161:{sequenceID=NODE_7_length_282381_cov_276_200892} : [Cas3_0_I (107702,110365,+); Cse1_0_IE (110377,111933,+); Cse2_0_IE (111930,112490,+); Cas7_0_IE (112504,113562,+); Cas5_0_IE (113573,114319,+); Cas6_0_IE (114301,114951,+); Cas1_0_IE (114948,115868,+); Cas2_0_IE (115868,116161,+)]
+
+
+############################################
+NODE_16_length_109439_cov_285_910517 ( Unknown ) 
+--------------------------------------------

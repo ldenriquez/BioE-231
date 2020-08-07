@@ -1,0 +1,70 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /usr/local/CRISPRCasFinder/CasFinder-2.0.2/CASprofiles-2.0.2/Cas3-Cas2_0_IF.hmm
+# target sequence database:        /store/webapp/ccpp/637108671004790426/query_2_12_2019_6_5_7/prodigal_NODE_5_length_279212_cov_300_782979/NODE_5_length_279212_cov_300_782979.faa
+# output directed to file:         query_2_12_2019_6_5_7/casfinder_NODE_5_length_279212_cov_300_782979/hmmer_results/Cas3-Cas2_0_IF.search_hmm.out
+# sequence reporting threshold:    E-value <= 1
+# number of worker threads:        0
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       TIGR02562  [M=1110]
+Accession:   TIGR02562
+Description: cas3_yersinia: CRISPR-associated helicase Cas3, subtype I-F/YPEST
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                -----------
+    0.00042   12.1   1.1     0.0034    9.0   0.0    2.5  3  NODE_5_length_279212_cov_300_782979_170  # 168936 # 171599 # -1 # ID=1_17
+
+
+Domain annotation for each sequence (and alignments):
+>> NODE_5_length_279212_cov_300_782979_170  # 168936 # 171599 # -1 # ID=1_170;partial=00;start_type=GTG;rbs_motif=GGAG/G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.6   0.0     0.042        11     123     151 ..      72      99 ..      69     104 .. 0.72
+   2 !    0.6   0.0    0.0048       1.2     557     654 ..     401     496 ..     392     514 .. 0.80
+   3 !    9.0   0.0   1.3e-05    0.0034     832     881 ..     611     660 ..     579     666 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: -2.6 bits;  conditional E-value: 0.042
+                                TIGR02562 123 HDlGkasvaFqakLspekngkkvadsyRH 151
+                                              HD+Gk +  Fq+  +   + +  +++ RH
+  NODE_5_length_279212_cov_300_782979_170  72 HDIGKFAHSFQQLYRH-EALNIFNEPTRH 99 
+                                              ***********97777.333333445555 PP
+
+  == domain 2  score: 0.6 bits;  conditional E-value: 0.0048
+                                TIGR02562 557 lkklLaaPvlvctiDhLiaAtEslrgGkqiaplLRllssDlvLDEvDdyeredLpAllRLvqlAgllGsr 626
+                                               kk L a v v t+D  + A  + +   +   lL l    l+ DE+   +      l  L++  +  G  
+  NODE_5_length_279212_cov_300_782979_170 401 NKKALLAEVGVGTLDQAMMAVMPFKH--NNLRLLGLSNKILLADEIHACDAWMSRILEGLIERQASNGNA 468
+                                              55666777888888888888888774..44455665555566699999999888899999999999**** PP
+
+                                TIGR02562 627 vllssAtLspalvkalfkAyeaGrkiyq 654
+                                               +l sAtLs +    l  A+  G +   
+  NODE_5_length_279212_cov_300_782979_170 469 TILLSATLSQQQRDKLVAAFSRGVRRSV 496
+                                              *********************9987654 PP
+
+  == domain 3  score: 9.0 bits;  conditional E-value: 1.3e-05
+                                TIGR02562 832 asdaknhlFivlaspveEvGRDHdydWAivdpssmrsliqlaGRvrRHra 881
+                                              +s a+    +++a+ v E   D d d  i d + +  liq aGR +RH  
+  NODE_5_length_279212_cov_300_782979_170 611 QSGAQRAGKVIIATQVIEQSLDIDCDEMISDLAPVDLLIQRAGRLQRHIR 660
+                                              5667777789**************************************75 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (1110 nodes)
+Target sequences:                          257  (80942 residues searched)
+Passed MSV filter:                        16  (0.0622568); expected 5.1 (0.02)
+Passed bias filter:                        9  (0.0350195); expected 5.1 (0.02)
+Passed Vit filter:                         3  (0.0116732); expected 0.3 (0.001)
+Passed Fwd filter:                         1  (0.00389105); expected 0.0 (1e-05)
+Initial search space (Z):                257  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 2994.85
+//
+[ok]

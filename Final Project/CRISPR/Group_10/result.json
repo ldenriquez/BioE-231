@@ -1,0 +1,2253 @@
+{
+"Date":"2/12/2019_6:5:7",
+"Version":"4.2.19",
+"Command":"perl /usr/local/CRISPRCasFinder/CRISPRCasFinder.pl -so /usr/local/CRISPRCasFinder/sel392v2.so -cf /usr/local/CRISPRCasFinder/CasFinder-2.0.2 -drpt /usr/local/CRISPRCasFinder/supplementary_files/repeatDirection.tsv -rpts /usr/local/CRISPRCasFinder/supplementary_files/Repeat_List.csv -minDR 23 -maxDR 55 -percSPmin 0.6 -percSPmax 2.5 -spSim 60 -mismDRs 20 -truncDR 33 -flank 100 -cas -def S -rcfowce -in query.fasta -out 637108671004790426",
+"Sequences":
+[{
+"Id":"NODE_1_length_471301_cov_281_597628",
+"Version":"NODE_1_length_471301_cov_281_597628",
+"Description":"Unknown",
+"AT":48.9046278280759,
+"Length":471301,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_2_length_433387_cov_282_418605",
+"Version":"NODE_2_length_433387_cov_282_418605",
+"Description":"Unknown",
+"AT":49.0598472035386,
+"Length":433387,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_3_length_376622_cov_304_671910",
+"Version":"NODE_3_length_376622_cov_304_671910",
+"Description":"Unknown",
+"AT":46.9444164175221,
+"Length":376622,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_4_length_324898_cov_304_387178",
+"Version":"NODE_4_length_324898_cov_304_387178",
+"Description":"Unknown",
+"AT":48.4121170336536,
+"Length":324898,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_5_length_279212_cov_300_782979",
+"Version":"NODE_5_length_279212_cov_300_782979",
+"Description":"Unknown",
+"AT":47.9051759953011,
+"Length":279212,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[
+{
+"Name": "NODE_5_length_279212_cov_300_782979_1",
+"Start": 161874,
+"End": 162269,
+"DR_Consensus": "CGGTTTATCCCCGCTGGCGCGGGGAACAC",
+"Repeat_ID": "R2887",
+"DR_Length": 29,
+"Spacers": 6,
+"Potential_Orientation": "ND",
+"CRISPRDirection": "-",
+"Evidence_Level": 4,
+"Conservation_DRs": 91.8389961574851,
+"Conservation_Spacers": 2.08333333333333,
+"Regions": [
+{
+"Type": "LeftFLANK",
+"Start": 161774,
+"End": 161873,
+"Sequence": "GGCGGATTGAGCGCCGTAGCCGCGATGTAGTGCGGATAATGCTGCCGTTGGTAAAAGAGCTGGCGAAGGCGGAAAAAACGTCCTGATATGCTGGTGAAAC",
+"Leader": 0,
+"AT": 45
+},
+ {
+"Type": "DR",
+"Start": 161874,
+"End": 161902,
+"Sequence": "GTGTTTATCCCCGCTGGCGCGGGGAACAT"
+},
+{
+"Type": "Spacer",
+"Start": 161903,
+"End": 161934,
+"Sequence": "TTTTCAGCCCTTGTCGACTGCGGAACGCCCCT"
+},
+{
+"Type": "DR",
+"Start": 161935,
+"End": 161963,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 161964,
+"End": 161995,
+"Sequence": "GCGAAATAGTGGGGAAAAACCCCTGGTTAACC"
+},
+{
+"Type": "DR",
+"Start": 161996,
+"End": 162024,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGAAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162025,
+"End": 162056,
+"Sequence": "TAGGCCTTGATACCATCGCTCGCACCTCGTCA"
+},
+{
+"Type": "DR",
+"Start": 162057,
+"End": 162085,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162086,
+"End": 162117,
+"Sequence": "TCTTTTGATTTTGCTGCGATGTTATAACCAGA"
+},
+{
+"Type": "DR",
+"Start": 162118,
+"End": 162146,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162147,
+"End": 162178,
+"Sequence": "TATCCACATATACCCGCAATCATATTCAAGAA"
+},
+{
+"Type": "DR",
+"Start": 162179,
+"End": 162207,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162208,
+"End": 162239,
+"Sequence": "AATCACTGCGGGGGTATTTAGCGGAAACGGCT"
+},
+{
+"Type": "DR",
+"Start": 162240,
+"End": 162268,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "RightFLANK",
+"Start": 162270,
+"End": 162369,
+"Sequence": "ATCGAGTAACGTGCGCTGGAACGCGTCGGCGCGGGGAACACAATTAAAGCCGAGGGTGGCACCGCGCCTTATTCGGTTTATCCCCGCTGGCGCGGGGAAC",
+"Leader": 0,
+"AT": 37
+}
+]
+},
+{
+"Name": "NODE_5_length_279212_cov_300_782979_2",
+"Start": 162343,
+"End": 163043,
+"DR_Consensus": "CGGTTTATCCCCGCTGGCGCGGGGAACAC",
+"Repeat_ID": "R2887",
+"DR_Length": 29,
+"Spacers": 11,
+"Potential_Orientation": "-",
+"CRISPRDirection": "-",
+"Evidence_Level": 4,
+"Conservation_DRs": 98.5730453437806,
+"Conservation_Spacers": 0,
+"Regions": [
+{
+"Type": "LeftFLANK",
+"Start": 162243,
+"End": 162342,
+"Sequence": "TTTATCCCCGCTGGCGCGGGGAACACGATCGAGTAACGTGCGCTGGAACGCGTCGGCGCGGGGAACACAATTAAAGCCGAGGGTGGCACCGCGCCTTATT",
+"Leader": 0,
+"AT": 38
+},
+ {
+"Type": "DR",
+"Start": 162343,
+"End": 162371,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162372,
+"End": 162404,
+"Sequence": "GCACCTCGAAACGGTTTTAAAACACTACCGTTT"
+},
+{
+"Type": "DR",
+"Start": 162405,
+"End": 162433,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162434,
+"End": 162465,
+"Sequence": "TGGACCGATGGGGCCAACATCGCCGAACGTGG"
+},
+{
+"Type": "DR",
+"Start": 162466,
+"End": 162494,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162495,
+"End": 162526,
+"Sequence": "GTTACGTTCGGTAAATGGAAAGCGGCGAATAT"
+},
+{
+"Type": "DR",
+"Start": 162527,
+"End": 162555,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162556,
+"End": 162587,
+"Sequence": "GGTAATTTCTCATCTAACAGCCTGTACGCCTC"
+},
+{
+"Type": "DR",
+"Start": 162588,
+"End": 162616,
+"Sequence": "AGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162617,
+"End": 162648,
+"Sequence": "GAATCTAATGCAACAGATGAATAAACACGTAA"
+},
+{
+"Type": "DR",
+"Start": 162649,
+"End": 162677,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162678,
+"End": 162709,
+"Sequence": "TCTTTATCGTCAATGCGAAATTTTCCGCGACG"
+},
+{
+"Type": "DR",
+"Start": 162710,
+"End": 162738,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162739,
+"End": 162770,
+"Sequence": "TCCCATTCACCAACAACAATATCGCCCTGCAA"
+},
+{
+"Type": "DR",
+"Start": 162771,
+"End": 162799,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162800,
+"End": 162831,
+"Sequence": "CGTTGCGTCAGGTTGATCCAGTGCGTCAGCGG"
+},
+{
+"Type": "DR",
+"Start": 162832,
+"End": 162860,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162861,
+"End": 162892,
+"Sequence": "TCTCGGTCTCGGTCTCGGTCTCGGTAGTGACG"
+},
+{
+"Type": "DR",
+"Start": 162893,
+"End": 162921,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162922,
+"End": 162953,
+"Sequence": "ACTTCCTTCAGTCTTAACGATAATCCGCAACG"
+},
+{
+"Type": "DR",
+"Start": 162954,
+"End": 162982,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 162983,
+"End": 163014,
+"Sequence": "CAGCACGAAAAATTATTTACTGTCGTTGCTCA"
+},
+{
+"Type": "DR",
+"Start": 163015,
+"End": 163043,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "RightFLANK",
+"Start": 163044,
+"End": 163143,
+"Sequence": "ACTAAAACTATATATTTGTTCTAAAAGCCCTTTTTTACTACATAACAAACTACCAACGGTAAGATAACAATTCCTTATTATTAAAGAACATTCAACTTAT",
+"Leader": 1,
+"AT": 75
+}
+]
+},
+{
+"Name": "NODE_5_length_279212_cov_300_782979_3",
+"Start": 179175,
+"End": 181339,
+"DR_Consensus": "CGGTTTATCCCCGCTGGCGCGGGGAACAC",
+"Repeat_ID": "R2887",
+"DR_Length": 29,
+"Spacers": 35,
+"Potential_Orientation": "-",
+"CRISPRDirection": "-",
+"Evidence_Level": 4,
+"Conservation_DRs": 91.1950489290661,
+"Conservation_Spacers": 0,
+"Regions": [
+{
+"Type": "LeftFLANK",
+"Start": 179075,
+"End": 179174,
+"Sequence": "CATGGCCTTCTCCTGTCTAAAAGCCTCCCCGGGAAAACGCGGCCTTTTTACTTTACAGGTTTGTAGCTGCCATTACTGGTACACAGATTATGATTATGCA",
+"Leader": 0,
+"AT": 54
+},
+ {
+"Type": "DR",
+"Start": 179175,
+"End": 179203,
+"Sequence": "ACGGCTATCCTTGTTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 179204,
+"End": 179235,
+"Sequence": "ATCTTCATATTGCGTGACGCTGCCGATGAACG"
+},
+{
+"Type": "DR",
+"Start": 179236,
+"End": 179264,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 179265,
+"End": 179296,
+"Sequence": "TCTTTATCAGCTAACCATTTCCAGAACTCGTC"
+},
+{
+"Type": "DR",
+"Start": 179297,
+"End": 179325,
+"Sequence": "CGGTTTATCCCTGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 179326,
+"End": 179357,
+"Sequence": "TATAATATGAATTAATTTTTGCGCATAACCTG"
+},
+{
+"Type": "DR",
+"Start": 179358,
+"End": 179386,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 179387,
+"End": 179418,
+"Sequence": "TGCCCGTTCTGCCTCTTCGCACTCTCGATCAA"
+},
+{
+"Type": "DR",
+"Start": 179419,
+"End": 179447,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 179448,
+"End": 179479,
+"Sequence": "TGCGTAATGGGCTACCTGAACTTCACATATCC"
+},
+{
+"Type": "DR",
+"Start": 179480,
+"End": 179508,
+"Sequence": "CGGTTTATCCCCGCTAGCGCGGGGAACAT"
+},
+{
+"Type": "Spacer",
+"Start": 179509,
+"End": 179540,
+"Sequence": "ATTAAGCGCGCAAAGTTTGGGTTAATTGGACA"
+},
+{
+"Type": "DR",
+"Start": 179541,
+"End": 179569,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 179570,
+"End": 179601,
+"Sequence": "CGTATTCGTCACACAGCCCCGTCCAGAAATGA"
+},
+{
+"Type": "DR",
+"Start": 179602,
+"End": 179630,
+"Sequence": "CGGTTTATCCCCGCTGGCACGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 179631,
+"End": 179662,
+"Sequence": "TAACGAACTGAATAAAATGTCAGAAAGTGACG"
+},
+{
+"Type": "DR",
+"Start": 179663,
+"End": 179691,
+"Sequence": "CGGCTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 179692,
+"End": 179724,
+"Sequence": "GCAGCTTAGCGACGAAATTAAAACCGAACTCAC"
+},
+{
+"Type": "DR",
+"Start": 179725,
+"End": 179753,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 179754,
+"End": 179785,
+"Sequence": "TGCCAGTGACTACAGAAGCGTCGCTATCGGGG"
+},
+{
+"Type": "DR",
+"Start": 179786,
+"End": 179814,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 179815,
+"End": 179846,
+"Sequence": "ACCGATAAACAACCGCATAGCCTCTTTCGTTT"
+},
+{
+"Type": "DR",
+"Start": 179847,
+"End": 179875,
+"Sequence": "CGATTTATCCCTGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 179876,
+"End": 179907,
+"Sequence": "TGCTCAATAACGTCGTAAATAGCGTAAGCTGG"
+},
+{
+"Type": "DR",
+"Start": 179908,
+"End": 179936,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 179937,
+"End": 179968,
+"Sequence": "TATTTCGCCTTCGGCACTGACGTCACCGTCAA"
+},
+{
+"Type": "DR",
+"Start": 179969,
+"End": 179997,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 179998,
+"End": 180029,
+"Sequence": "GTCGCGTTCGTTGCCGGTATAGACCAGCGTCA"
+},
+{
+"Type": "DR",
+"Start": 180030,
+"End": 180058,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180059,
+"End": 180090,
+"Sequence": "ATCGAATCGAAACCCCAGCCACAGAAATAATT"
+},
+{
+"Type": "DR",
+"Start": 180091,
+"End": 180119,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180120,
+"End": 180151,
+"Sequence": "ATCGAATCGAAACCCCAGCCACAGAAATAATT"
+},
+{
+"Type": "DR",
+"Start": 180152,
+"End": 180180,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180181,
+"End": 180212,
+"Sequence": "GCTCATGTCAAACGCCATCAGCGTTCCGGCAT"
+},
+{
+"Type": "DR",
+"Start": 180213,
+"End": 180241,
+"Sequence": "CGGTTTATCCCCGCTAGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180242,
+"End": 180273,
+"Sequence": "AATCGCCAGCCTCGGAAATATTCCATCCTCCG"
+},
+{
+"Type": "DR",
+"Start": 180274,
+"End": 180302,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180303,
+"End": 180334,
+"Sequence": "AGGAACTAAACAGCCTGACCGTTGAGGATCTG"
+},
+{
+"Type": "DR",
+"Start": 180335,
+"End": 180363,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180364,
+"End": 180395,
+"Sequence": "ACCGGACAAATCTTTTTTTTCCTGTTCCTGTT"
+},
+{
+"Type": "DR",
+"Start": 180396,
+"End": 180424,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180425,
+"End": 180456,
+"Sequence": "GGGCACTATGAACGGATCGGCGCTGATGCCGG"
+},
+{
+"Type": "DR",
+"Start": 180457,
+"End": 180485,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180486,
+"End": 180517,
+"Sequence": "GGTAAAGCCACACCATTTTTTATTGACCTCGC"
+},
+{
+"Type": "DR",
+"Start": 180518,
+"End": 180546,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180547,
+"End": 180578,
+"Sequence": "CTAGGAGGCGTAATGAATACTACGTATCAAAA"
+},
+{
+"Type": "DR",
+"Start": 180579,
+"End": 180607,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180608,
+"End": 180639,
+"Sequence": "GTGGTGGCCTCAAATAAATTCGAGCGCTGGAG"
+},
+{
+"Type": "DR",
+"Start": 180640,
+"End": 180668,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180669,
+"End": 180700,
+"Sequence": "TCGACGTGGACGAGGAGTTACTCAACCGCTGC"
+},
+{
+"Type": "DR",
+"Start": 180701,
+"End": 180729,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180730,
+"End": 180761,
+"Sequence": "AGCGCCACATGGCCCACCGGCACCACCCGATC"
+},
+{
+"Type": "DR",
+"Start": 180762,
+"End": 180790,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180791,
+"End": 180822,
+"Sequence": "AAATGACCAAATCAGAAATCTTCACCAAAGCC"
+},
+{
+"Type": "DR",
+"Start": 180823,
+"End": 180851,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180852,
+"End": 180883,
+"Sequence": "TAATGGCCACAGTAAGTCAAACGGTTCTGGAA"
+},
+{
+"Type": "DR",
+"Start": 180884,
+"End": 180912,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180913,
+"End": 180944,
+"Sequence": "GAGTCCGGGGGTTATATAGTTATTTAATGAGC"
+},
+{
+"Type": "DR",
+"Start": 180945,
+"End": 180973,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 180974,
+"End": 181005,
+"Sequence": "TTGGGCGTCGGTTTTTTCAGGTTTAGGTCCGG"
+},
+{
+"Type": "DR",
+"Start": 181006,
+"End": 181034,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 181035,
+"End": 181066,
+"Sequence": "TCAACTGTCAGTTCGTCGTTAGCCAGTAATTC"
+},
+{
+"Type": "DR",
+"Start": 181067,
+"End": 181095,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 181096,
+"End": 181127,
+"Sequence": "CTGAAAACGCATGGAATCCGGTATAAACAGTC"
+},
+{
+"Type": "DR",
+"Start": 181128,
+"End": 181156,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 181157,
+"End": 181188,
+"Sequence": "GATGTAACTGATAGCGAAATATATTGGGATAA"
+},
+{
+"Type": "DR",
+"Start": 181189,
+"End": 181217,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 181218,
+"End": 181249,
+"Sequence": "GAAACGTAAACAGGGTAAGATACAACTCTGCA"
+},
+{
+"Type": "DR",
+"Start": 181250,
+"End": 181278,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "Spacer",
+"Start": 181279,
+"End": 181310,
+"Sequence": "TGTAAAGGGTGGTCTGGAAGGGGATCGGCAAA"
+},
+{
+"Type": "DR",
+"Start": 181311,
+"End": 181339,
+"Sequence": "CGGTTTATCCCCGCTGGCGCGGGGAACAC"
+},
+{
+"Type": "RightFLANK",
+"Start": 181340,
+"End": 181439,
+"Sequence": "ACTAAACGGATATAATTGTTTATAAACTACTTTTTGTCAGCACCACATTCTACCAACATAATCGCAACAATTTAAATTATTAAAGAACAGCTAATTTGCT",
+"Leader": 1,
+"AT": 72
+}
+]
+}]
+,
+"Cas":[{
+"Type": "CAS-TypeIE",
+"Start": 163140,
+"End": 171599,
+"Genes": [
+{
+"Sub_type": "Cas2_0_IE",
+"Start": 163140,
+"End": 163433,
+"Orientation": "-"
+},
+{
+"Sub_type": "Cas1_0_IE",
+"Start": 163433,
+"End": 164353,
+"Orientation": "-"
+},
+{
+"Sub_type": "Cas6_0_IE",
+"Start": 164350,
+"End": 165000,
+"Orientation": "-"
+},
+{
+"Sub_type": "Cas5_0_IE",
+"Start": 165054,
+"End": 165728,
+"Orientation": "-"
+},
+{
+"Sub_type": "Cas7_0_IE",
+"Start": 165739,
+"End": 166797,
+"Orientation": "-"
+},
+{
+"Sub_type": "Cse2_0_IE",
+"Start": 166811,
+"End": 167371,
+"Orientation": "-"
+},
+{
+"Sub_type": "Cse1_0_IE",
+"Start": 167368,
+"End": 168924,
+"Orientation": "-"
+},
+{
+"Sub_type": "Cas3_0_I",
+"Start": 168936,
+"End": 171599,
+"Orientation": "-"
+}]}]
+
+},
+{
+"Id":"NODE_6_length_277799_cov_286_495928",
+"Version":"NODE_6_length_277799_cov_286_495928",
+"Description":"Unknown",
+"AT":47.9022602673156,
+"Length":277799,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_7_length_222608_cov_298_471137",
+"Version":"NODE_7_length_222608_cov_298_471137",
+"Description":"Unknown",
+"AT":46.3797347804212,
+"Length":222608,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_8_length_201397_cov_294_244683",
+"Version":"NODE_8_length_201397_cov_294_244683",
+"Description":"Unknown",
+"AT":47.4803497569477,
+"Length":201397,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_9_length_188944_cov_302_283796",
+"Version":"NODE_9_length_188944_cov_302_283796",
+"Description":"Unknown",
+"AT":47.8115208739097,
+"Length":188944,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_10_length_178293_cov_289_618269",
+"Version":"NODE_10_length_178293_cov_289_618269",
+"Description":"Unknown",
+"AT":46.9474404491483,
+"Length":178293,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_11_length_165825_cov_320_086041",
+"Version":"NODE_11_length_165825_cov_320_086041",
+"Description":"Unknown",
+"AT":46.1860394994723,
+"Length":165825,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_12_length_164384_cov_302_877824",
+"Version":"NODE_12_length_164384_cov_302_877824",
+"Description":"Unknown",
+"AT":47.3221238076698,
+"Length":164384,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[
+{
+"Name": "NODE_12_length_164384_cov_302_877824_1",
+"Start": 72582,
+"End": 72682,
+"DR_Consensus": "GCTTCAGTGGCGAACGTCGTGAA",
+"Repeat_ID": "Unknown",
+"DR_Length": 23,
+"Spacers": 1,
+"Potential_Orientation": "ND",
+"CRISPRDirection": "ND",
+"Evidence_Level": 1,
+"Conservation_DRs": 95.6521739130435,
+"Conservation_Spacers": 100,
+"Regions": [
+{
+"Type": "LeftFLANK",
+"Start": 72482,
+"End": 72581,
+"Sequence": "CACTTCACGCGTACCCGCATTCTGAACAAGCCGATGAATATGCAGCTGTTGGGTGATGCGGTTCCGCACGCGGGCGGCGAACGTCGCGGCGGTGGTCGTA",
+"Leader": 0,
+"AT": 38
+},
+ {
+"Type": "DR",
+"Start": 72582,
+"End": 72604,
+"Sequence": "GCTTCAGTGGCGAACGTCGTGAA"
+},
+{
+"Type": "Spacer",
+"Start": 72605,
+"End": 72659,
+"Sequence": "GGCGGTCGTAATTTCAGCGGCGAACGTCGTGAAGGTGGTCGTGGTGATGGTCGTC"
+},
+{
+"Type": "DR",
+"Start": 72660,
+"End": 72682,
+"Sequence": "GCTTCAGCGGCGAACGTCGTGAA"
+},
+{
+"Type": "RightFLANK",
+"Start": 72683,
+"End": 72782,
+"Sequence": "AGCCGTGGTCCGCGTCGTGATGACTCTACCGGTCGCCGTCGTTTCGGCGGTGATGCGTAACTCACGCTGACCTGCGCATTCACAGCGTAAAGTAAAATAT",
+"Leader": 0,
+"AT": 44
+}
+]
+}]
+,
+"Cas":[]
+
+},
+{
+"Id":"NODE_13_length_159295_cov_309_954879",
+"Version":"NODE_13_length_159295_cov_309_954879",
+"Description":"Unknown",
+"AT":48.3750274647666,
+"Length":159295,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_14_length_151387_cov_293_877422",
+"Version":"NODE_14_length_151387_cov_293_877422",
+"Description":"Unknown",
+"AT":47.4433075495254,
+"Length":151387,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_15_length_149960_cov_308_884520",
+"Version":"NODE_15_length_149960_cov_308_884520",
+"Description":"Unknown",
+"AT":47.4579887970125,
+"Length":149960,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_16_length_131156_cov_287_643603",
+"Version":"NODE_16_length_131156_cov_287_643603",
+"Description":"Unknown",
+"AT":47.5433834517674,
+"Length":131156,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_17_length_99801_cov_648_391394",
+"Version":"NODE_17_length_99801_cov_648_391394",
+"Description":"Unknown",
+"AT":48.5395937916454,
+"Length":99801,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_18_length_95474_cov_297_184093",
+"Version":"NODE_18_length_95474_cov_297_184093",
+"Description":"Unknown",
+"AT":48.2602593376207,
+"Length":95474,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_19_length_93920_cov_665_573377",
+"Version":"NODE_19_length_93920_cov_665_573377",
+"Description":"Unknown",
+"AT":46.8686115843271,
+"Length":93920,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_20_length_90492_cov_305_556409",
+"Version":"NODE_20_length_90492_cov_305_556409",
+"Description":"Unknown",
+"AT":46.946691420236,
+"Length":90492,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_21_length_81304_cov_305_787259",
+"Version":"NODE_21_length_81304_cov_305_787259",
+"Description":"Unknown",
+"AT":47.3802026960543,
+"Length":81304,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_22_length_74306_cov_311_154301",
+"Version":"NODE_22_length_74306_cov_311_154301",
+"Description":"Unknown",
+"AT":47.803676688289,
+"Length":74306,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_23_length_61884_cov_299_130537",
+"Version":"NODE_23_length_61884_cov_299_130537",
+"Description":"Unknown",
+"AT":48.8833947385431,
+"Length":61884,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_24_length_59488_cov_317_432723",
+"Version":"NODE_24_length_59488_cov_317_432723",
+"Description":"Unknown",
+"AT":51.6255379236148,
+"Length":59488,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[
+{
+"Name": "NODE_24_length_59488_cov_317_432723_1",
+"Start": 33888,
+"End": 33997,
+"DR_Consensus": "TTAAAAAAAGGTGGTACAGGGTGGGACA",
+"Repeat_ID": "Unknown",
+"DR_Length": 28,
+"Spacers": 1,
+"Potential_Orientation": "ND",
+"CRISPRDirection": "ND",
+"Evidence_Level": 1,
+"Conservation_DRs": 96.4285714285714,
+"Conservation_Spacers": 100,
+"Regions": [
+{
+"Type": "LeftFLANK",
+"Start": 33788,
+"End": 33887,
+"Sequence": "GGAAATACCAGTCGCAGGTTCGCCTGCCGGAGATCGGCAAAACCAGGGTTTACCGGCTTACCTCCCGCATCCTCAGTATCTGAGTGCAGTCTAACGTGTC",
+"Leader": 0,
+"AT": 44
+},
+ {
+"Type": "DR",
+"Start": 33888,
+"End": 33915,
+"Sequence": "TTAAAAAAAGGTGGTACAGGGTGGGACA"
+},
+{
+"Type": "Spacer",
+"Start": 33916,
+"End": 33969,
+"Sequence": "AGTGGTACACGCAGAGCTGGCGAGGGTTACAGCGTCCCACCTTAGAGAATTTGA"
+},
+{
+"Type": "DR",
+"Start": 33970,
+"End": 33997,
+"Sequence": "TTAAAAAAAAGTGGTACAGGGTGGGACA"
+},
+{
+"Type": "RightFLANK",
+"Start": 33998,
+"End": 34097,
+"Sequence": "GCCGTTGCTAAATCTGTCCCACTTTTCCGACTGGCATTTTTCAGGTGGTACAGCGCAAAGCCACGGCTGGCGCGGTTGTACCACTTGTCCCACCTGTACC",
+"Leader": 0,
+"AT": 44
+}
+]
+}]
+,
+"Cas":[]
+},
+{
+"Id":"NODE_25_length_56700_cov_393_862494",
+"Version":"NODE_25_length_56700_cov_393_862494",
+"Description":"Unknown",
+"AT":50.4444444444444,
+"Length":56700,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[
+{
+"Name": "NODE_25_length_56700_cov_393_862494_1",
+"Start": 28953,
+"End": 29042,
+"DR_Consensus": "TTGTCCAACGGATGTCCAACGGAT",
+"Repeat_ID": "R8616",
+"DR_Length": 24,
+"Spacers": 1,
+"Potential_Orientation": "-",
+"CRISPRDirection": "ND",
+"Evidence_Level": 1,
+"Conservation_DRs": 91.6666666666667,
+"Conservation_Spacers": 100,
+"Regions": [
+{
+"Type": "LeftFLANK",
+"Start": 28853,
+"End": 28952,
+"Sequence": "TTCGTTCTTTTGAAGGGAATGGAATGATTCGTATCGAGTCGAAAGGGAGAAAATTCAGCCTGATAACAGTGTTGAAATATGATGATTTTCAGGCTCCAAA",
+"Leader": 0,
+"AT": 62
+},
+ {
+"Type": "DR",
+"Start": 28953,
+"End": 28976,
+"Sequence": "TTGTCCAACGGATGTCCAACGGAT"
+},
+{
+"Type": "Spacer",
+"Start": 28977,
+"End": 29018,
+"Sequence": "GTCCAACGCAAACACCAGTAATGACGCGGCTCACAGCAAATG"
+},
+{
+"Type": "DR",
+"Start": 29019,
+"End": 29042,
+"Sequence": "TTGTCCAACGGATGTCCAACGATT"
+},
+{
+"Type": "RightFLANK",
+"Start": 29043,
+"End": 29142,
+"Sequence": "GTCCATAAACAATAATATAAATAATATCTCTAATACTAACGTATTAGAGAGTACCGCAGCAGACGAAAATCCTGACAAGAAAAAATCGGCTCTCAGTTGT",
+"Leader": 1,
+"AT": 66
+}
+]
+}]
+,
+"Cas":[]
+},
+{
+"Id":"NODE_26_length_50320_cov_302_437302",
+"Version":"NODE_26_length_50320_cov_302_437302",
+"Description":"Unknown",
+"AT":46.2976947535771,
+"Length":50320,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_27_length_47119_cov_292_730792",
+"Version":"NODE_27_length_47119_cov_292_730792",
+"Description":"Unknown",
+"AT":45.2195504997984,
+"Length":47119,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_28_length_36765_cov_305_041433",
+"Version":"NODE_28_length_36765_cov_305_041433",
+"Description":"Unknown",
+"AT":47.4391404868761,
+"Length":36765,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_29_length_36546_cov_306_700803",
+"Version":"NODE_29_length_36546_cov_306_700803",
+"Description":"Unknown",
+"AT":49.4417993761287,
+"Length":36546,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_30_length_35501_cov_301_945043",
+"Version":"NODE_30_length_35501_cov_301_945043",
+"Description":"Unknown",
+"AT":46.2184163826371,
+"Length":35501,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_31_length_33378_cov_369_550011",
+"Version":"NODE_31_length_33378_cov_369_550011",
+"Description":"Unknown",
+"AT":48.6338306669063,
+"Length":33378,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_32_length_32701_cov_313_681768",
+"Version":"NODE_32_length_32701_cov_313_681768",
+"Description":"Unknown",
+"AT":46.8884743585823,
+"Length":32701,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_33_length_26108_cov_308_437032",
+"Version":"NODE_33_length_26108_cov_308_437032",
+"Description":"Unknown",
+"AT":49.2837444461468,
+"Length":26108,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_34_length_24122_cov_293_987410",
+"Version":"NODE_34_length_24122_cov_293_987410",
+"Description":"Unknown",
+"AT":46.223364563469,
+"Length":24122,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_35_length_22041_cov_284_197034",
+"Version":"NODE_35_length_22041_cov_284_197034",
+"Description":"Unknown",
+"AT":45.6603602377388,
+"Length":22041,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_36_length_16415_cov_314_145538",
+"Version":"NODE_36_length_16415_cov_314_145538",
+"Description":"Unknown",
+"AT":52.0377703320134,
+"Length":16415,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_37_length_10195_cov_307_868146",
+"Version":"NODE_37_length_10195_cov_307_868146",
+"Description":"Unknown",
+"AT":54.7327121137813,
+"Length":10195,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_38_length_9356_cov_294_023223",
+"Version":"NODE_38_length_9356_cov_294_023223",
+"Description":"Unknown",
+"AT":47.2637879435656,
+"Length":9356,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_39_length_7997_cov_301_155628",
+"Version":"NODE_39_length_7997_cov_301_155628",
+"Description":"Unknown",
+"AT":51.1816931349256,
+"Length":7997,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_40_length_6270_cov_553_089622",
+"Version":"NODE_40_length_6270_cov_553_089622",
+"Description":"Unknown",
+"AT":32.4242424242424,
+"Length":6270,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_41_length_4144_cov_311_161898",
+"Version":"NODE_41_length_4144_cov_311_161898",
+"Description":"Unknown",
+"AT":50.6998069498069,
+"Length":4144,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_42_length_4007_cov_295_564524",
+"Version":"NODE_42_length_4007_cov_295_564524",
+"Description":"Unknown",
+"AT":52.3084601946593,
+"Length":4007,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_43_length_2487_cov_338_833059",
+"Version":"NODE_43_length_2487_cov_338_833059",
+"Description":"Unknown",
+"AT":52.9553679131484,
+"Length":2487,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_44_length_2475_cov_317_318595",
+"Version":"NODE_44_length_2475_cov_317_318595",
+"Description":"Unknown",
+"AT":55.2323232323232,
+"Length":2475,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_45_length_2405_cov_287_564681",
+"Version":"NODE_45_length_2405_cov_287_564681",
+"Description":"Unknown",
+"AT":51.8503118503118,
+"Length":2405,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_46_length_1704_cov_744_574894",
+"Version":"NODE_46_length_1704_cov_744_574894",
+"Description":"Unknown",
+"AT":53.5211267605634,
+"Length":1704,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_47_length_1700_cov_2198_949544",
+"Version":"NODE_47_length_1700_cov_2198_949544",
+"Description":"Unknown",
+"AT":46.2941176470588,
+"Length":1700,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_48_length_1669_cov_2213_361214",
+"Version":"NODE_48_length_1669_cov_2213_361214",
+"Description":"Unknown",
+"AT":47.0341521869383,
+"Length":1669,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_49_length_1604_cov_870_970949",
+"Version":"NODE_49_length_1604_cov_870_970949",
+"Description":"Unknown",
+"AT":35.3491271820449,
+"Length":1604,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_50_length_1389_cov_693_415292",
+"Version":"NODE_50_length_1389_cov_693_415292",
+"Description":"Unknown",
+"AT":45.5723542116631,
+"Length":1389,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_51_length_1267_cov_725_465347",
+"Version":"NODE_51_length_1267_cov_725_465347",
+"Description":"Unknown",
+"AT":55.6432517758485,
+"Length":1267,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_52_length_1163_cov_606_818592",
+"Version":"NODE_52_length_1163_cov_606_818592",
+"Description":"Unknown",
+"AT":45.9157351676698,
+"Length":1163,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_53_length_974_cov_877_448313",
+"Version":"NODE_53_length_974_cov_877_448313",
+"Description":"Unknown",
+"AT":37.3716632443532,
+"Length":974,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_54_length_740_cov_637_646715",
+"Version":"NODE_54_length_740_cov_637_646715",
+"Description":"Unknown",
+"AT":45.4054054054054,
+"Length":740,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_55_length_662_cov_2738_548600",
+"Version":"NODE_55_length_662_cov_2738_548600",
+"Description":"Unknown",
+"AT":54.5317220543807,
+"Length":662,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_56_length_662_cov_2165_822076",
+"Version":"NODE_56_length_662_cov_2165_822076",
+"Description":"Unknown",
+"AT":49.2447129909366,
+"Length":662,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_57_length_618_cov_567_481350",
+"Version":"NODE_57_length_618_cov_567_481350",
+"Description":"Unknown",
+"AT":54.3689320388349,
+"Length":618,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_58_length_617_cov_2256_240214",
+"Version":"NODE_58_length_617_cov_2256_240214",
+"Description":"Unknown",
+"AT":46.677471636953,
+"Length":617,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_59_length_574_cov_659_132948",
+"Version":"NODE_59_length_574_cov_659_132948",
+"Description":"Unknown",
+"AT":52.9616724738676,
+"Length":574,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_60_length_459_cov_434_002475",
+"Version":"NODE_60_length_459_cov_434_002475",
+"Description":"Unknown",
+"AT":53.1590413943355,
+"Length":459,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_61_length_455_cov_515_762500",
+"Version":"NODE_61_length_455_cov_515_762500",
+"Description":"Unknown",
+"AT":41.5384615384615,
+"Length":455,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_62_length_455_cov_439_130000",
+"Version":"NODE_62_length_455_cov_439_130000",
+"Description":"Unknown",
+"AT":56.2637362637363,
+"Length":455,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_63_length_454_cov_905_323308",
+"Version":"NODE_63_length_454_cov_905_323308",
+"Description":"Unknown",
+"AT":53.9647577092511,
+"Length":454,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_64_length_447_cov_600_859694",
+"Version":"NODE_64_length_447_cov_600_859694",
+"Description":"Unknown",
+"AT":34.8993288590604,
+"Length":447,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_65_length_447_cov_558_852041",
+"Version":"NODE_65_length_447_cov_558_852041",
+"Description":"Unknown",
+"AT":51.4541387024609,
+"Length":447,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_66_length_447_cov_301_752551",
+"Version":"NODE_66_length_447_cov_301_752551",
+"Description":"Unknown",
+"AT":35.1230425055928,
+"Length":447,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_67_length_410_cov_582_185915",
+"Version":"NODE_67_length_410_cov_582_185915",
+"Description":"Unknown",
+"AT":44.8780487804878,
+"Length":410,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_68_length_333_cov_443_190647",
+"Version":"NODE_68_length_333_cov_443_190647",
+"Description":"Unknown",
+"AT":48.3483483483483,
+"Length":333,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_69_length_327_cov_642_716912",
+"Version":"NODE_69_length_327_cov_642_716912",
+"Description":"Unknown",
+"AT":51.9877675840979,
+"Length":327,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_70_length_293_cov_924_029412",
+"Version":"NODE_70_length_293_cov_924_029412",
+"Description":"Unknown",
+"AT":53.5836177474403,
+"Length":293,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_71_length_277_cov_313_882883",
+"Version":"NODE_71_length_277_cov_313_882883",
+"Description":"Unknown",
+"AT":36.4620938628159,
+"Length":277,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_72_length_266_cov_0_663507",
+"Version":"NODE_72_length_266_cov_0_663507",
+"Description":"Unknown",
+"AT":46.9924812030075,
+"Length":266,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_73_length_264_cov_484_722488",
+"Version":"NODE_73_length_264_cov_484_722488",
+"Description":"Unknown",
+"AT":47.3484848484849,
+"Length":264,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_74_length_261_cov_425_810680",
+"Version":"NODE_74_length_261_cov_425_810680",
+"Description":"Unknown",
+"AT":55.9386973180077,
+"Length":261,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_75_length_248_cov_269_051813",
+"Version":"NODE_75_length_248_cov_269_051813",
+"Description":"Unknown",
+"AT":42.3387096774194,
+"Length":248,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_76_length_246_cov_1536_753927",
+"Version":"NODE_76_length_246_cov_1536_753927",
+"Description":"Unknown",
+"AT":48.780487804878,
+"Length":246,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_77_length_242_cov_234_497326",
+"Version":"NODE_77_length_242_cov_234_497326",
+"Description":"Unknown",
+"AT":50.8264462809917,
+"Length":242,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_78_length_241_cov_232_881720",
+"Version":"NODE_78_length_241_cov_232_881720",
+"Description":"Unknown",
+"AT":47.3029045643153,
+"Length":241,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_79_length_232_cov_300_881356",
+"Version":"NODE_79_length_232_cov_300_881356",
+"Description":"Unknown",
+"AT":48.2758620689655,
+"Length":232,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_80_length_227_cov_279_470930",
+"Version":"NODE_80_length_227_cov_279_470930",
+"Description":"Unknown",
+"AT":54.625550660793,
+"Length":227,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_81_length_224_cov_643_343195",
+"Version":"NODE_81_length_224_cov_643_343195",
+"Description":"Unknown",
+"AT":45.9821428571429,
+"Length":224,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_82_length_224_cov_1_088757",
+"Version":"NODE_82_length_224_cov_1_088757",
+"Description":"Unknown",
+"AT":66.9642857142857,
+"Length":224,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_83_length_186_cov_342_007634",
+"Version":"NODE_83_length_186_cov_342_007634",
+"Description":"Unknown",
+"AT":45.1612903225806,
+"Length":186,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_84_length_181_cov_927_960317",
+"Version":"NODE_84_length_181_cov_927_960317",
+"Description":"Unknown",
+"AT":50.828729281768,
+"Length":181,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_85_length_171_cov_317_836207",
+"Version":"NODE_85_length_171_cov_317_836207",
+"Description":"Unknown",
+"AT":43.859649122807,
+"Length":171,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_86_length_169_cov_505_543860",
+"Version":"NODE_86_length_169_cov_505_543860",
+"Description":"Unknown",
+"AT":45.5621301775148,
+"Length":169,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_87_length_160_cov_651_847619",
+"Version":"NODE_87_length_160_cov_651_847619",
+"Description":"Unknown",
+"AT":51.875,
+"Length":160,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_88_length_156_cov_258_584158",
+"Version":"NODE_88_length_156_cov_258_584158",
+"Description":"Unknown",
+"AT":55.7692307692308,
+"Length":156,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_89_length_148_cov_422_301075",
+"Version":"NODE_89_length_148_cov_422_301075",
+"Description":"Unknown",
+"AT":43.9189189189189,
+"Length":148,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_90_length_147_cov_267_858696",
+"Version":"NODE_90_length_147_cov_267_858696",
+"Description":"Unknown",
+"AT":38.0952380952381,
+"Length":147,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_91_length_141_cov_323_546512",
+"Version":"NODE_91_length_141_cov_323_546512",
+"Description":"Unknown",
+"AT":51.7730496453901,
+"Length":141,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_92_length_133_cov_211_589744",
+"Version":"NODE_92_length_133_cov_211_589744",
+"Description":"Unknown",
+"AT":41.3533834586466,
+"Length":133,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_93_length_130_cov_299_560000",
+"Version":"NODE_93_length_130_cov_299_560000",
+"Description":"Unknown",
+"AT":53.0769230769231,
+"Length":130,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_94_length_124_cov_1652_217391",
+"Version":"NODE_94_length_124_cov_1652_217391",
+"Description":"Unknown",
+"AT":51.6129032258064,
+"Length":124,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_95_length_123_cov_331_911765",
+"Version":"NODE_95_length_123_cov_331_911765",
+"Description":"Unknown",
+"AT":31.7073170731707,
+"Length":123,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_96_length_120_cov_548_061538",
+"Version":"NODE_96_length_120_cov_548_061538",
+"Description":"Unknown",
+"AT":53.3333333333333,
+"Length":120,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_97_length_111_cov_556_660714",
+"Version":"NODE_97_length_111_cov_556_660714",
+"Description":"Unknown",
+"AT":45.945945945946,
+"Length":111,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_98_length_111_cov_301_964286",
+"Version":"NODE_98_length_111_cov_301_964286",
+"Description":"Unknown",
+"AT":43.2432432432432,
+"Length":111,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_99_length_106_cov_547_901961",
+"Version":"NODE_99_length_106_cov_547_901961",
+"Description":"Unknown",
+"AT":55.6603773584906,
+"Length":106,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_100_length_105_cov_330_740000",
+"Version":"NODE_100_length_105_cov_330_740000",
+"Description":"Unknown",
+"AT":60.952380952381,
+"Length":105,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_101_length_105_cov_294_920000",
+"Version":"NODE_101_length_105_cov_294_920000",
+"Description":"Unknown",
+"AT":60.952380952381,
+"Length":105,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_102_length_105_cov_275_560000",
+"Version":"NODE_102_length_105_cov_275_560000",
+"Description":"Unknown",
+"AT":61.9047619047619,
+"Length":105,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_103_length_104_cov_318_551020",
+"Version":"NODE_103_length_104_cov_318_551020",
+"Description":"Unknown",
+"AT":53.8461538461538,
+"Length":104,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_104_length_103_cov_166_520833",
+"Version":"NODE_104_length_103_cov_166_520833",
+"Description":"Unknown",
+"AT":35.9223300970874,
+"Length":103,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_105_length_100_cov_596_822222",
+"Version":"NODE_105_length_100_cov_596_822222",
+"Description":"Unknown",
+"AT":47,
+"Length":100,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_106_length_93_cov_227_263158",
+"Version":"NODE_106_length_93_cov_227_263158",
+"Description":"Unknown",
+"AT":32.258064516129,
+"Length":93,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_108_length_91_cov_206_666667",
+"Version":"NODE_108_length_91_cov_206_666667",
+"Description":"Unknown",
+"AT":50.5494505494505,
+"Length":91,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_109_length_90_cov_308_542857",
+"Version":"NODE_109_length_90_cov_308_542857",
+"Description":"Unknown",
+"AT":55.5555555555556,
+"Length":90,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_110_length_90_cov_301_714286",
+"Version":"NODE_110_length_90_cov_301_714286",
+"Description":"Unknown",
+"AT":43.3333333333333,
+"Length":90,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_111_length_87_cov_256_843750",
+"Version":"NODE_111_length_87_cov_256_843750",
+"Description":"Unknown",
+"AT":33.3333333333333,
+"Length":87,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_112_length_82_cov_635_851852",
+"Version":"NODE_112_length_82_cov_635_851852",
+"Description":"Unknown",
+"AT":54.8780487804878,
+"Length":82,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_113_length_79_cov_1103_583333",
+"Version":"NODE_113_length_79_cov_1103_583333",
+"Description":"Unknown",
+"AT":39.2405063291139,
+"Length":79,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_114_length_79_cov_263_000000",
+"Version":"NODE_114_length_79_cov_263_000000",
+"Description":"Unknown",
+"AT":45.5696202531646,
+"Length":79,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_115_length_75_cov_274_350000",
+"Version":"NODE_115_length_75_cov_274_350000",
+"Description":"Unknown",
+"AT":50.6666666666667,
+"Length":75,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_116_length_64_cov_1963_444444",
+"Version":"NODE_116_length_64_cov_1963_444444",
+"Description":"Unknown",
+"AT":39.0625,
+"Length":64,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_117_length_64_cov_611_777778",
+"Version":"NODE_117_length_64_cov_611_777778",
+"Description":"Unknown",
+"AT":62.5,
+"Length":64,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_118_length_62_cov_219_571429",
+"Version":"NODE_118_length_62_cov_219_571429",
+"Description":"Unknown",
+"AT":29.0322580645161,
+"Length":62,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_119_length_61_cov_626_166667",
+"Version":"NODE_119_length_61_cov_626_166667",
+"Description":"Unknown",
+"AT":57.3770491803279,
+"Length":61,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_120_length_60_cov_1083_600000",
+"Version":"NODE_120_length_60_cov_1083_600000",
+"Description":"Unknown",
+"AT":33.3333333333333,
+"Length":60,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_121_length_60_cov_290_200000",
+"Version":"NODE_121_length_60_cov_290_200000",
+"Description":"Unknown",
+"AT":55,
+"Length":60,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_122_length_59_cov_73_500000",
+"Version":"NODE_122_length_59_cov_73_500000",
+"Description":"Unknown",
+"AT":76.271186440678,
+"Length":59,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_123_length_58_cov_3177_666667",
+"Version":"NODE_123_length_58_cov_3177_666667",
+"Description":"Unknown",
+"AT":32.7586206896552,
+"Length":58,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_124_length_58_cov_613_000000",
+"Version":"NODE_124_length_58_cov_613_000000",
+"Description":"Unknown",
+"AT":37.9310344827586,
+"Length":58,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_125_length_58_cov_424_333333",
+"Version":"NODE_125_length_58_cov_424_333333",
+"Description":"Unknown",
+"AT":53.448275862069,
+"Length":58,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_126_length_56_cov_7685_000000",
+"Version":"NODE_126_length_56_cov_7685_000000",
+"Description":"Unknown",
+"AT":0,
+"Length":56,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_127_length_56_cov_978_000000",
+"Version":"NODE_127_length_56_cov_978_000000",
+"Description":"Unknown",
+"AT":100,
+"Length":56,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_128_length_56_cov_807_000000",
+"Version":"NODE_128_length_56_cov_807_000000",
+"Description":"Unknown",
+"AT":44.6428571428571,
+"Length":56,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_129_length_56_cov_752_000000",
+"Version":"NODE_129_length_56_cov_752_000000",
+"Description":"Unknown",
+"AT":37.5,
+"Length":56,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_130_length_56_cov_608_000000",
+"Version":"NODE_130_length_56_cov_608_000000",
+"Description":"Unknown",
+"AT":46.4285714285714,
+"Length":56,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+},
+{
+"Id":"NODE_131_length_56_cov_540_000000",
+"Version":"NODE_131_length_56_cov_540_000000",
+"Description":"Unknown",
+"AT":37.5,
+"Length":56,
+"Summary_CRISPR-Cas":"NA",
+"Crisprs":[],
+"Cas":[]
+}
+]
+}

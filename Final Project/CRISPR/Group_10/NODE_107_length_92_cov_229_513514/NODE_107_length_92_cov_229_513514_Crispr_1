@@ -1,0 +1,24 @@
+########################################
+# Program: CRISPR Finder
+# Author: Ibtissem GRISSA
+# Rundate (GMT): 2/12/2019 6:6:8
+# Report_file: query_2_12_2019_6_5_7/NODE_107_length_92_cov_229_513514/NODE_107_length_92_cov_229_513514_Crispr_1
+########################################
+#=======================================
+# 
+# Sequence: NODE_107_length_92_cov_229_513514 
+# Description: 
+# Length: 92
+# Id: NODE_107_length_92_cov_229_513514
+#
+#=========================================================================
+# Crispr Rank in the sequence: 1
+# Crispr_begin_position: 1	 Crispr_end_position: 92
+# DR: AAACCGGACGAGTTCTGGAAATGGTTAGCTG	 DR_length: 31	 Number_of_spacers: 1
+#=========================================================================
+Spacer_begin_position	 Spacer_length	 Spacer_sequence
+                   32	            30	 ATAAAGAGTGTTCCCCGCGCCAGCAGGGAT
+
+#=========================================================================
+########################################
+########################################

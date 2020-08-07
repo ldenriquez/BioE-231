@@ -1,0 +1,73 @@
+MacSyFinder's results will be stored in query_2_12_2019_6_5_7/casfinder_NODE_5_length_279212_cov_300_782979/
+Analysis launched on /store/webapp/ccpp/637108671004790426/query_2_12_2019_6_5_7/prodigal_NODE_5_length_279212_cov_300_782979/NODE_5_length_279212_cov_300_782979.faa for system(s):
+	- CAS-TypeIA
+	- CAS-TypeIB
+	- CAS-TypeIC
+	- CAS-TypeID
+	- CAS-TypeIE
+	- CAS-TypeIF
+	- CAS-TypeIIA
+	- CAS-TypeIIB
+	- CAS-TypeIIC
+	- CAS-TypeIIIA
+	- CAS-TypeIIIB
+	- CAS-TypeIIIC
+	- CAS-TypeIIID
+	- CAS-TypeIU
+	- CAS-TypeIV
+	- CAS-TypeVA
+	- CAS-TypeVB
+	- CAS-TypeVC
+	- CAS-TypeVIA
+	- CAS-TypeVIB1
+	- CAS-TypeVIB2
+	- CAS-TypeVIC
+	- CAS
+
+************************************
+ Analyzing clusters 
+************************************
+
+
+--- Cluster CAS-TypeIE  ---
+['NODE_5_length_279212_cov_300_782979_163', 'NODE_5_length_279212_cov_300_782979_164', 'NODE_5_length_279212_cov_300_782979_165', 'NODE_5_length_279212_cov_300_782979_166', 'NODE_5_length_279212_cov_300_782979_167', 'NODE_5_length_279212_cov_300_782979_168', 'NODE_5_length_279212_cov_300_782979_169', 'NODE_5_length_279212_cov_300_782979_170']
+['Cas2_0_IE', 'Cas1_0_IE', 'Cas6_0_IE', 'Cas5_0_IE', 'Cas7_0_IE', 'Cse2_0_IE', 'Cse1_0_IE', 'Cas3_0_I']
+[163, 164, 165, 166, 167, 168, 169, 170]
+Considering CAS-TypeIE: 
+-> single_locus
+====> Decision rule for putative system CAS-TypeIE:
+Mandatory genes: 
+Cas7_0_IE	1
+Cas2_0_IE	1
+Cas5_0_IE	1
+Cas1_0_IE	1
+Cse2_0_IE	1
+Cas6_0_IE	1
+Cse1_0_IE	1
+Accessory genes: 
+Cas3_1_I	0
+Cas2_0_I-II-III	0
+Cas3_0_I	1
+Cas4_0_I-II	0
+Cas5_0_I	0
+Cas1_0_I-II-III	0
+
+nb_forbid : 0
+nb_mandat : 7
+nb_accessory : 1
+Complete "single_locus" system.
+******************************************
+
+
+    
+****************************************************
+******* Report scattered/uncompleted systems *******
+****************************************************
+
+******************************************
+
+******************************************
+Building reports of detected systems
+ 
+Counter({'CAS-TypeIE_single_locus': 1})
+******************************************

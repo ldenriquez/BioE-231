@@ -1,0 +1,9 @@
+#Hit_Id	Replicon_name	Position	Sequence_length	Gene	Reference_system	Predicted_system	System_Id	System_status	Gene_status	i-evalue	Score	Profile_coverage	Sequence_coverage	Begin_match	End_match
+NODE_5_length_279212_cov_300_782979_163	UserReplicon	163	98	Cas2_0_IE	CAS-TypeIE	CAS-TypeIE        	UserReplicon_CAS-TypeIE_1	single_locus	mandatory	2.000e-40	130.800	1.000	0.878        	3	88
+NODE_5_length_279212_cov_300_782979_164	UserReplicon	164	307	Cas1_0_IE	CAS-TypeIE	CAS-TypeIE        	UserReplicon_CAS-TypeIE_1	single_locus	mandatory	5.600e-116	380.300	0.989	0.863        	8	272
+NODE_5_length_279212_cov_300_782979_165	UserReplicon	165	217	Cas6_0_IE	CAS-TypeIE	CAS-TypeIE        	UserReplicon_CAS-TypeIE_1	single_locus	mandatory	5.400e-77	252.700	0.995	0.977        	1	212
+NODE_5_length_279212_cov_300_782979_166	UserReplicon	166	225	Cas5_0_IE	CAS-TypeIE	CAS-TypeIE        	UserReplicon_CAS-TypeIE_1	single_locus	mandatory	3.900e-43	141.700	0.948	0.982        	3	223
+NODE_5_length_279212_cov_300_782979_167	UserReplicon	167	353	Cas7_0_IE	CAS-TypeIE	CAS-TypeIE        	UserReplicon_CAS-TypeIE_1	single_locus	mandatory	2.400e-121	399.500	1.000	0.915        	3	325
+NODE_5_length_279212_cov_300_782979_168	UserReplicon	168	187	Cse2_0_IE	CAS-TypeIE	CAS-TypeIE        	UserReplicon_CAS-TypeIE_1	single_locus	mandatory	1.800e-37	123.000	1.000	0.882        	12	176
+NODE_5_length_279212_cov_300_782979_169	UserReplicon	169	519	Cse1_0_IE	CAS-TypeIE	CAS-TypeIE        	UserReplicon_CAS-TypeIE_1	single_locus	mandatory	4.300e-187	616.900	1.000	0.969        	5	507
+NODE_5_length_279212_cov_300_782979_170	UserReplicon	170	888	Cas3_0_I	CAS	CAS-TypeIE        	UserReplicon_CAS-TypeIE_1	single_locus	accessory	7.200e-64	210.000	0.994	0.484        	292	721

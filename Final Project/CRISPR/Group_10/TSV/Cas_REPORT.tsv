@@ -1,0 +1,29 @@
+############################################
+NODE_5_length_279212_cov_300_782979 ( Unknown ) 
+--------------------------------------------
+### System: CAS-TypeIE (UserReplicon_CAS-TypeIE_1)
+#SequenceID	Cas-type/subtype	Gene status	System	Type	Begin	End	Strand	Other_information
+NODE_5_length_279212_cov_300_782979_163	Cas2_0_IE	mandatory	CAS-TypeIE	CDS	163140	163433	-	ID=1_163;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.497;conf=99.52;score=23.22;cscore=18.40;sscore=4.82;rscore=-8.61;uscore=-1.80;tscore=3.54;
+NODE_5_length_279212_cov_300_782979_164	Cas1_0_IE	mandatory	CAS-TypeIE	CDS	163433	164353	-	ID=1_164;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.558;conf=100.00;score=94.99;cscore=87.81;sscore=7.18;rscore=11.28;uscore=0.20;tscore=-5.60;
+NODE_5_length_279212_cov_300_782979_165	Cas6_0_IE	mandatory	CAS-TypeIE	CDS	164350	165000	-	ID=1_165;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.570;conf=100.00;score=66.66;cscore=61.13;sscore=5.53;rscore=16.08;uscore=-5.64;tscore=-5.60;
+NODE_5_length_279212_cov_300_782979_166	Cas5_0_IE	mandatory	CAS-TypeIE	CDS	165054	165728	-	ID=1_166;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.581;conf=100.00;score=66.71;cscore=61.73;sscore=4.98;rscore=1.42;uscore=-1.15;tscore=3.54;
+NODE_5_length_279212_cov_300_782979_167	Cas7_0_IE	mandatory	CAS-TypeIE	CDS	165739	166797	-	ID=1_167;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.526;conf=100.00;score=143.61;cscore=136.37;sscore=7.24;rscore=1.42;uscore=1.15;tscore=3.54;
+NODE_5_length_279212_cov_300_782979_168	Cse2_0_IE	mandatory	CAS-TypeIE	CDS	166811	167371	-	ID=1_168;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.485;conf=100.00;score=57.76;cscore=36.97;sscore=20.80;rscore=14.74;uscore=1.22;tscore=3.54;
+NODE_5_length_279212_cov_300_782979_169	Cse1_0_IE	mandatory	CAS-TypeIE	CDS	167368	168924	-	ID=1_169;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.544;conf=99.99;score=179.65;cscore=180.56;sscore=-0.90;rscore=-6.59;uscore=1.00;tscore=3.54;
+NODE_5_length_279212_cov_300_782979_170	Cas3_0_I	accessory	CAS	CDS	168936	171599	-	ID=1_170;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.503;conf=99.99;score=276.60;cscore=269.13;sscore=7.47;rscore=11.28;uscore=2.44;tscore=-5.60;
+####Summary system CAS-TypeIE:begin=163140;end=171599:{sequenceID=NODE_5_length_279212_cov_300_782979} : [Cas2_0_IE (163140,163433,-); Cas1_0_IE (163433,164353,-); Cas6_0_IE (164350,165000,-); Cas5_0_IE (165054,165728,-); Cas7_0_IE (165739,166797,-); Cse2_0_IE (166811,167371,-); Cse1_0_IE (167368,168924,-); Cas3_0_I (168936,171599,-)]
+
+
+############################################
+NODE_12_length_164384_cov_302_877824 ( Unknown ) 
+--------------------------------------------
+
+############################################
+NODE_24_length_59488_cov_317_432723 ( Unknown ) 
+--------------------------------------------
+############################################
+NODE_25_length_56700_cov_393_862494 ( Unknown ) 
+--------------------------------------------
+############################################
+NODE_107_length_92_cov_229_513514 ( Unknown ) 
+--------------------------------------------

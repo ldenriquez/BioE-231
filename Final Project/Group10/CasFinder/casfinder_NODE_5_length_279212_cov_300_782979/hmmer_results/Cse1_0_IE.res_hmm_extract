@@ -1,0 +1,6 @@
+# gene: Cse1_0_IE extract from query_2_12_2019_6_5_7/casfinder_NODE_5_length_279212_cov_300_782979/hmmer_results/Cse1_0_IE.search_hmm.out hmm output
+# profile length= 504
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id replicon_name position_hit hit_sequence_length gene_name gene_system i_eval score profile_coverage sequence_coverage begin end
+NODE_5_length_279212_cov_300_782979_169	UserReplicon	169	519	Cse1_0_IE	CAS-TypeIE	4.300e-187	616.900	1.000	0.969	5	507

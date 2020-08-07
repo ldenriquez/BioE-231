@@ -1,0 +1,8 @@
+##gff-version 3; 1 CRISPR(s); strain: Unknown 
+NODE_107_length_92_cov_229_513514	CRISPRCasFinder	LeftFLANK	-99	0	.	.	.	sequence=UNKNOWN;at%=0;Parent=NODE_107_length_92_cov_229_513514_1_92;ID=fl_1
+NODE_107_length_92_cov_229_513514	CRISPRCasFinder	CRISPR	1	92	.	.	.	DR=AAACCGGACGAGTTCTGGAAATGGTTAGCTG;DR_length=31;Number_of_spacers=1;Name=NODE_107_length_92_cov_229_513514_1_92;ID=NODE_107_length_92_cov_229_513514_Crispr_1;potential_direction=Unknown;
+NODE_107_length_92_cov_229_513514	CRISPRCasFinder	CRISPRdr	1	31	.	.	.	sequence=AAACCGGACGAGTTCTGGAAATGGTTAGCTG;Parent=NODE_107_length_92_cov_229_513514_1_92;ID=DR_1
+NODE_107_length_92_cov_229_513514	CRISPRCasFinder	CRISPRspacer	32	61	.	.	.	sequence=ATAAAGAGTGTTCCCCGCGCCAGCAGGGAT;Name=spacer_32_30;Parent=NODE_107_length_92_cov_229_513514_1_92;ID=sp_32
+NODE_107_length_92_cov_229_513514	CRISPRCasFinder	CRISPRdr	62	92	.	.	.	sequence=AAACCGGACGAGTTCTGGAAATGGTTAGCTG;Parent=NODE_107_length_92_cov_229_513514_1_92;ID=DR_62
+NODE_107_length_92_cov_229_513514	CRISPRCasFinder	RightFLANK	93	192	.	.	.	sequence=UNKNOWN;at%=0;Parent=NODE_107_length_92_cov_229_513514_1_92;ID=fl_92
+

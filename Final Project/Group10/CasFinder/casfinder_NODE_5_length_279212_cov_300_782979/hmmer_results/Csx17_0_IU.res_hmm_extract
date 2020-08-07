@@ -1,0 +1,5 @@
+# gene: Csx17_0_IU extract from query_2_12_2019_6_5_7/casfinder_NODE_5_length_279212_cov_300_782979/hmmer_results/Csx17_0_IU.search_hmm.out hmm output
+# profile length= 718
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id replicon_name position_hit hit_sequence_length gene_name gene_system i_eval score profile_coverage sequence_coverage begin end
